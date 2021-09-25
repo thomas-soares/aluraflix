@@ -7,6 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello World, NLW Together</Text>
       <TextInput style={styles.input} onChangeText={setText} />
+      <Text>Você digitou: {text}</Text>
       <StatusBar style="auto" />
     </View>
   );
