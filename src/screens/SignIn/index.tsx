@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { Text, TextInput, View } from "react-native";
+import { Image, Text, TextInput, View } from "react-native";
+
+import IllustrationImg from "../../assets/illustration.png";
 
 import { styles } from "./styles";
 
