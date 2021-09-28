@@ -10,6 +10,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Image source={IllustrationImg} />
       <Text>Hello World, NLW Together</Text>
       <TextInput style={styles.input} onChangeText={setText} />
       <Text>Você digitou: {text}</Text>
