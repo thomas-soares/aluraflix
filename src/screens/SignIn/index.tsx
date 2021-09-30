@@ -10,7 +10,11 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Image source={IllustrationImg} style={styles.image} />
+      <Image
+        source={IllustrationImg}
+        style={styles.image}
+        resizeMode="stretch"
+      />
       <Text>Hello World, NLW Together</Text>
       <TextInput style={styles.input} onChangeText={setText} />
       <Text>Você digitou: {text}</Text>
