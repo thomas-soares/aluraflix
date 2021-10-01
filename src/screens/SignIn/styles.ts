@@ -17,5 +17,10 @@ export const styles = StyleSheet.create({
     color: theme.colors.heading,
     textAlign: "center",
     fontSize: 40,
+    marginBottom: 16,
+  },
+  subtitle: {
+    color: theme.colors.heading,
+    fontSize: 15,
   },
 });
