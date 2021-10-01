@@ -13,4 +13,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     height: 360,
   },
+  title: {
+    color: theme.colors.heading,
+  },
 });
