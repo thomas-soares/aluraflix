@@ -23,5 +23,6 @@ export const styles = StyleSheet.create({
     color: theme.colors.heading,
     fontSize: 15,
     textAlign: "center",
+    marginBottom: 64,
   },
 });
