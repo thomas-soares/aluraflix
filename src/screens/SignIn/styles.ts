@@ -22,5 +22,6 @@ export const styles = StyleSheet.create({
   subtitle: {
     color: theme.colors.heading,
     fontSize: 15,
+    textAlign: "center",
   },
 });
