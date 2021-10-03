@@ -10,6 +10,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <StatusBar />
       <Image
         source={IllustrationImg}
         style={styles.image}
