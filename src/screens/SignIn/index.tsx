@@ -10,7 +10,11 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <StatusBar />
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
       <Image
         source={IllustrationImg}
         style={styles.image}
