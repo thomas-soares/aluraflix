@@ -8,7 +8,7 @@ export function ButtonIcon() {
   return (
     <TouchableOpacity>
       <View style={styles.iconWrapper}>
-        <Image source={DiscordImg} />
+        <Image source={DiscordImg} style={styles.icon} />
       </View>
     </TouchableOpacity>
   );
