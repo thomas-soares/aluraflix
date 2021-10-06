@@ -7,7 +7,9 @@ import { styles } from "./styles";
 export function ButtonIcon() {
   return (
     <TouchableOpacity>
-      <View style={styles.iconWrapper}></View>
+      <View style={styles.iconWrapper}>
+        <Image source={DiscordImg} />
+      </View>
     </TouchableOpacity>
   );
 }
