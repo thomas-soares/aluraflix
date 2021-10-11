@@ -13,8 +13,6 @@ export const styles = Stylesheet.create({
   title: {
     flex: 1,
     color: theme.colors.heading,
-    fontSize: 15,
-    textAlign: "center",
   },
   iconWrapper: {
     width: 56,
