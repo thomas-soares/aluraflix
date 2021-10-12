@@ -7,8 +7,4 @@ export const styles = Stylesheet.create({
     height: 56,
     backgroundColor: theme.colors.primary,
   },
-  title: {
-    flex: 1,
-    color: theme.colors.heading,
-  },
 });
