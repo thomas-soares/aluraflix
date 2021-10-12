@@ -11,10 +11,4 @@ export const styles = Stylesheet.create({
     flex: 1,
     color: theme.colors.heading,
   },
-  iconWrapper: {
-    width: 56,
-    height: 56,
-    justifyContent: "center",
-    alignItems: "center",
-  },
 });
