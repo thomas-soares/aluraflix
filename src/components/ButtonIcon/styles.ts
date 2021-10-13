@@ -10,4 +10,10 @@ export const styles = Stylesheet.create({
     flexDirection: "row",
     alignItems: "center",
   },
+  title: {
+    flex: 1,
+    color: theme.colors.heading,
+    fontSize: 15,
+    textAlign: "center",
+  },
 });
