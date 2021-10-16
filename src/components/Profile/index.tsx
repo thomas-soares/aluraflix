@@ -9,6 +9,7 @@ export function Profile() {
       <View>
         <View>
           <Text>Olá</Text>
+          <Text>Thomas</Text>
         </View>
       </View>
     </View>
