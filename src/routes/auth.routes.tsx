@@ -4,5 +4,9 @@ import { createStackNavigator } from "@react-navigation/stack";
 const { Navigator, Screen } = createStackNavigator;
 
 export function AuthRoutes() {
-  return <Navigator></Navigator>;
+  return (
+    <Navigator>
+      <Screen name="SignIn" component={SignIn}></Screen>
+    </Navigator>
+  );
 }
