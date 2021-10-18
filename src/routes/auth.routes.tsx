@@ -7,6 +7,7 @@ export function AuthRoutes() {
   return (
     <Navigator>
       <Screen name="SignIn" component={SignIn} />
+      <Screen name="Home" component={Home} />
     </Navigator>
   );
 }
