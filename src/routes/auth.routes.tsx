@@ -7,7 +7,7 @@ export function AuthRoutes() {
   return (
     <Navigator headerMode="none" screenOptions={
       cardStyle: {
-        
+        backgroundColor: 'transparent'
       }
     }>
       <Screen name="SignIn" component={SignIn} />
