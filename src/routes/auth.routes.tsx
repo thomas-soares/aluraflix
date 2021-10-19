@@ -5,7 +5,11 @@ const { Navigator, Screen } = createStackNavigator;
 
 export function AuthRoutes() {
   return (
-    <Navigator headerMode="none" screenOptions={}>
+    <Navigator headerMode="none" screenOptions={
+      cardStyle: {
+        
+      }
+    }>
       <Screen name="SignIn" component={SignIn} />
       <Screen name="Home" component={Home} />
     </Navigator>
