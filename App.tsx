@@ -5,6 +5,9 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 import { Routes } from "./src/routes";
 
 export default function App() {
+  const [fontsLoaded] = useFonts({
+    Inter_400Regular,
+  });
   const [text, setText] = useState("");
 
   return (
