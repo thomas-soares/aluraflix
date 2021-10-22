@@ -11,6 +11,11 @@ export default function App() {
     Rajdhani_500Medium,
     Rajdhani_700Bold,
   });
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  }
+
   const [text, setText] = useState("");
 
   return (
