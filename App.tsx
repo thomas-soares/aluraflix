@@ -7,6 +7,9 @@ import { Routes } from "./src/routes";
 export default function App() {
   const [fontsLoaded] = useFonts({
     Inter_400Regular,
+    Inter_500Medium,
+    Rajdhani_500Medium,
+    Rajdhani_700Bold,
   });
   const [text, setText] = useState("");
 
