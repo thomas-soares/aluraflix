@@ -5,4 +5,8 @@ export const styles = StyleSheet.create({
     width: 48,
     height: 48,
   },
+  avatar: {
+    width: 46,
+    height: 46,
+  },
 });
