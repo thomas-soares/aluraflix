@@ -4,6 +4,8 @@ export const styles = StyleSheet.create({
   container: {
     width: 48,
     height: 48,
+    alignItems: "center",
+    justifyContent: "center",
   },
   avatar: {
     width: 46,
