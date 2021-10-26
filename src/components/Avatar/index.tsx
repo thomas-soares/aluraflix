@@ -5,4 +5,6 @@ import { Image } from "react-native";
 import { styles } from "./styles";
 import { theme } from "../../global/styles/theme";
 
-export function Avatar() {}
+export function Avatar() {
+  const { secondary80, secondary100 } = theme.colors;
+}
