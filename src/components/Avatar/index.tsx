@@ -9,8 +9,12 @@ type Props = {
   urlImage: string;
 };
 
-export function Avatar() {
+export function Avatar({ urlImage }: Props) {
   const { secondary80, secondary100 } = theme.colors;
 
-  return <LinearGradient></LinearGradient>;
+  return (
+    <LinearGradient>
+      <Image source={{ uri: urlImage }} />
+    </LinearGradient>
+  );
 }
