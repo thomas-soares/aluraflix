@@ -7,4 +7,6 @@ import { theme } from "../../global/styles/theme";
 
 export function Avatar() {
   const { secondary80, secondary100 } = theme.colors;
+
+  return <LinearGradient></LinearGradient>;
 }
