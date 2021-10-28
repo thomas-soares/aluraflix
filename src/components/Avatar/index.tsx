@@ -13,7 +13,10 @@ export function Avatar({ urlImage }: Props) {
   const { secondary80, secondary100 } = theme.colors;
 
   return (
-    <LinearGradient style={styles.container}>
+    <LinearGradient
+      style={styles.container}
+      color={[secondary80, secondary100]}
+    >
       <Image source={{ uri: urlImage }} />
     </LinearGradient>
   );
