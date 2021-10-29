@@ -7,6 +7,7 @@ import { styles } from "./styles";
 export function Profile() {
   return (
     <View>
+      <Avatar />
       <View>
         <View>
           <Text>Olá</Text>
