@@ -11,7 +11,7 @@ export function Profile() {
       <View>
         <View>
           <Text style={{styles.greeting}}>Olá</Text>
-          <Text>Thomas</Text>
+          <Text style={{styles.username}}>Thomas</Text>
         </View>
       </View>
     </View>
