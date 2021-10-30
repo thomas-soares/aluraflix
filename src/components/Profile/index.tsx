@@ -10,10 +10,12 @@ export function Profile() {
       <Avatar />
       <View>
         <View>
-          <Text>Olá</Text>
+          <Text style={{styles.greeting}}>Olá</Text>
           <Text>Thomas</Text>
         </View>
       </View>
     </View>
   );
 }
+
+
