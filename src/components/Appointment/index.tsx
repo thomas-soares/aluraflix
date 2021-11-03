@@ -4,6 +4,7 @@ import { View } from "react-native";
 
 export type AppointmentProps = {
   id: string;
+  guild: GuildProps;
 };
 
 export function Appointment() {
