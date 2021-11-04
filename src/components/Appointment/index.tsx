@@ -7,6 +7,7 @@ export type AppointmentProps = {
   guild: GuildProps;
   category: string;
   date: string;
+  description: string;
 };
 
 export function Appointment() {
