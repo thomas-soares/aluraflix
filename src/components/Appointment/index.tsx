@@ -10,6 +10,10 @@ export type AppointmentProps = {
   description: string;
 };
 
+type Props = RectButton & {
+  data: AppointmentProps;
+};
+
 export function Appointment() {
   return <View style={styles.container}></View>;
 }
