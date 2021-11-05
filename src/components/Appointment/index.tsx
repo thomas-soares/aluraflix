@@ -14,6 +14,6 @@ type Props = RectButton & {
   data: AppointmentProps;
 };
 
-export function Appointment() {
+export function Appointment({ data }) {
   return <View style={styles.container}></View>;
 }
