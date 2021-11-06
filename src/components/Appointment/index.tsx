@@ -15,5 +15,9 @@ type Props = RectButton & {
 };
 
 export function Appointment({ data, ...rest }: Props) {
-  return <View style={styles.container}></View>;
+  return (
+    <RectButton>
+      <View style={styles.container}></View>
+    </RectButton>
+  );
 }
