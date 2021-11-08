@@ -4,7 +4,7 @@ import { View } from "react-native";
 export function Category() {
   return (
     <View>
-      <Icon width={48} />
+      <Icon width={48} height={48} />
     </View>
   );
 }
