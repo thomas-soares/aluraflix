@@ -5,7 +5,7 @@ import { styles } from "../Avatar/styles";
 export function Category() {
   return (
     <RectButton>
-      <linearGradient>
+      <linearGradient style={styles.container}>
         <View style={checked ? styles.checked : styles.check}>
           <Icon width={48} height={48} />
         </View>
