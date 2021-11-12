@@ -2,7 +2,7 @@ import React from "react";
 import { Text, View } from "react-native";
 import { styles } from "../Avatar/styles";
 
-export function Category() {
+export function Category({ title }) {
   return (
     <RectButton>
       <linearGradient style={styles.container}>
