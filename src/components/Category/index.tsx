@@ -2,6 +2,10 @@ import React from "react";
 import { Text, View } from "react-native";
 import { styles } from "../Avatar/styles";
 
+type Props = RectButtonProps & {
+  title: string;
+};
+
 export function Category({ title, icon }) {
   return (
     <RectButton>
