@@ -5,6 +5,7 @@ import { styles } from "../Avatar/styles";
 type Props = RectButtonProps & {
   title: string;
   icon: React.FC<SvgProps>;
+  checked?: boolean;
 };
 
 export function Category({ title, icon }) {
