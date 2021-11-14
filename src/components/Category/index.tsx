@@ -1,7 +1,8 @@
 import React from "react";
 import { Text, View } from "react-native";
-import { styles } from "../Avatar/styles";
 import { RectButton, RectButtonProps } from "react-native-gesture-handler";
+
+import { styles } from "./styles";
 
 type Props = RectButtonProps & {
   title: string;
