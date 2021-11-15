@@ -12,7 +12,7 @@ type Props = RectButtonProps & {
 
 export function Category({ title, icon, checked = false, ...rest }: Props) {
   return (
-    <RectButton>
+    <RectButton {...rest}>
       <linearGradient style={styles.container}>
         <View style={checked ? styles.checked : styles.check}>
           <Icon width={48} height={48} />
