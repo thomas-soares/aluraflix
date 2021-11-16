@@ -17,7 +17,7 @@ export function Category({ title, icon, checked = false, ...rest }: Props) {
         <View style={checked ? styles.checked : styles.check}>
           <Icon width={48} height={48} />
         </View>
-        <Image source={{ uri: UrlImage }} />
+        <Image source={{ uri: UrlImage }} style={styles.avatar} />
         <Text style={styles.title}>{text}</Text>
       </linearGradient>
     </RectButton>
