@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Image, Text, View } from "react-native";
 import { RectButton, RectButtonProps } from "react-native-gesture-handler";
 
 import { styles } from "./styles";
@@ -17,6 +17,7 @@ export function Category({ title, icon, checked = false, ...rest }: Props) {
         <View style={checked ? styles.checked : styles.check}>
           <Icon width={48} height={48} />
         </View>
+        <Image />
         <Text style={styles.title}>{text}</Text>
       </linearGradient>
     </RectButton>
