@@ -16,7 +16,7 @@ export function Category({ title, icon, checked = false, ...rest }: Props) {
       <linearGradient style={styles.container}>
         <View style={[styles.content, { opacity: checked ? 1 : 0.4 }]}>
           <View style={checked ? styles.checked : styles.check}>
-            <Icon width={48} height={48} />
+            
           </View>
         </View>
         <Image source={{ uri: UrlImage }} style={styles.avatar} />
