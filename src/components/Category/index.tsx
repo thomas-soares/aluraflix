@@ -15,9 +15,6 @@ export function Category({ title, icon, checked = false, ...rest }: Props) {
     <RectButton {...rest}>
       <linearGradient style={styles.container}>
         <View style={[styles.content, { opacity: checked ? 1 : 0.4 }]}>
-          <View style={checked ? styles.checked : styles.check}>
-            
-          </View>
         </View>
         <Image source={{ uri: UrlImage }} style={styles.avatar} />
         <Text style={styles.title}>{text}</Text>
