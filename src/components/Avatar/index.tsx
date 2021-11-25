@@ -6,7 +6,6 @@ import { styles } from "./styles";
 import { theme } from "../../global/styles/theme";
 
 type Props = {
-  urlImage: string;
 };
 
 export function Avatar({ urlImage }: Props) {
