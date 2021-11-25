@@ -17,7 +17,6 @@ export function Avatar({ urlImage }: Props) {
       style={styles.container}
       colors={[secondary80, secondary100]}
     >
-      <Image source={{ uri: urlImage }} style={styles.avatar} />
     </LinearGradient>
   );
 }
