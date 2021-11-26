@@ -6,9 +6,7 @@ import { styles } from "./styles";
 export function ButtonIcon() {
   return (
     <TouchableOpacity>
-      <View style={styles.iconWrapper}>
-        
-      </View>
+     
     </TouchableOpacity>
   );
 }
