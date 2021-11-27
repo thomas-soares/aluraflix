@@ -6,7 +6,6 @@ export const styles = StyleSheet.create({
     height: 48,
     borderRadius: 8,
     alignItems: "center",
-    justifyContent: "center",
   },
   avatar: {
     width: 46,
