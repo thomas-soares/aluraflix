@@ -7,7 +7,6 @@ export const styles = Stylesheet.create({
     height: 56,
     backgroundColor: theme.colors.primary,
     borderRadius: 8,
-    flexDirection: "row",
   },
   title: {
     flex: 1,
