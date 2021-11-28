@@ -8,7 +8,6 @@ export const styles = Stylesheet.create({
     backgroundColor: theme.colors.primary,
     borderRadius: 8,
     flexDirection: "row",
-    alignItems: "center",
   },
   title: {
     flex: 1,
