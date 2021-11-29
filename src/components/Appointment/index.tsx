@@ -16,7 +16,6 @@ export function Appointment({ data, ...rest }: Props) {
   return (
     <RectButton {...rest}>
       <GuildIcon />
-      <View style={styles.container}></View>
     </RectButton>
   );
 }
