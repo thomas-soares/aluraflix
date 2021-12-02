@@ -7,9 +7,6 @@ export type AppointmentProps = {
 
 };
 
-type Props = RectButton & {
-  data: AppointmentProps;
-};
 
 export function Appointment({ data, ...rest }: Props) {
   return (
