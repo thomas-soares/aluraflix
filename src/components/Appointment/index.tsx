@@ -13,7 +13,6 @@ type Props = RectButton & {
 
 export function Appointment({ data, ...rest }: Props) {
   return (
-    <RectButton {...rest}>
-    </RectButton>
+    
   );
 }
