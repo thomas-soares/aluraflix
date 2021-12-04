@@ -18,6 +18,5 @@ export const styles = Stylesheet.create({
     height: 56,
     justifyContent: "center",
     alignItems: "center",
-    borderRightWidth: 1,
   },
 });
