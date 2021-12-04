@@ -17,6 +17,5 @@ export const styles = Stylesheet.create({
     width: 56,
     height: 56,
     justifyContent: "center",
-    alignItems: "center",
   },
 });
